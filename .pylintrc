@@ -1,0 +1,18 @@
+[MASTER]
+extension-pkg-allow-list=
+disable=
+    C0103,  # 变量命名不符合规范
+    R0903,  # 类太少公共方法
+    R0913,  # 参数太多
+    W0613,  # 未使用的参数
+
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    too-few-public-methods,
+
+[FORMAT]
+max-line-length=100
+
+[BASIC]
+good-names=i,j,k,ex,Run,_
